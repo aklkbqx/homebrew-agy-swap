@@ -1,26 +1,26 @@
 class AgySwap < Formula
   desc "Fast account switcher and quota monitor for Google Antigravity CLI"
   homepage "https://github.com/aklkbqx/agy-swap"
-  version "2.11.5"
+  version "2.11.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/aklkbqx/agy-swap/releases/download/v2.11.5/agy-swap_v2.11.5_darwin_arm64"
-      sha256 "9ad3d4e300a98e9ae59a9b61a1e016f61654b07b8190d6a568517460dafd4616"
+      url "https://github.com/aklkbqx/agy-swap/releases/download/v2.11.6/agy-swap_v2.11.6_darwin_arm64"
+      sha256 "c85bff359f78c34080f2427470ef1f0329e0438cff745506622eadc649d6467d"
     else
-      url "https://github.com/aklkbqx/agy-swap/releases/download/v2.11.5/agy-swap_v2.11.5_darwin_amd64"
-      sha256 "2e148663d4dca6176df496fb2371c8aa9c2c108f0d6ad4941978127a94d65ce0"
+      url "https://github.com/aklkbqx/agy-swap/releases/download/v2.11.6/agy-swap_v2.11.6_darwin_amd64"
+      sha256 "9200f14de494a8dde58a788295af2cd9910f8e58647e70be9928496569fb6e61"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/aklkbqx/agy-swap/releases/download/v2.11.5/agy-swap_v2.11.5_linux_arm64"
-      sha256 "e840e5cf9902b64613a8de5aac2ab600b95029571de4efc8eeefd0043996f319"
+      url "https://github.com/aklkbqx/agy-swap/releases/download/v2.11.6/agy-swap_v2.11.6_linux_arm64"
+      sha256 "26b6291939037476c45057202551da56033142d099c6b7a4427de82c4424e3f3"
     else
-      url "https://github.com/aklkbqx/agy-swap/releases/download/v2.11.5/agy-swap_v2.11.5_linux_amd64"
-      sha256 "a750df455b597a192a15764b8a22c674250c2e6cdea6a61f1c7ed19d5878d2dd"
+      url "https://github.com/aklkbqx/agy-swap/releases/download/v2.11.6/agy-swap_v2.11.6_linux_amd64"
+      sha256 "7c75a4c5d889d143e4e1fcfe1ab723cdf2f87e93b0797715a5bd43a3a9778bc1"
     end
   end
 
