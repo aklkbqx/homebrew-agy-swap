@@ -7,20 +7,20 @@ class AgySwap < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/aklkbqx/agy-swap/releases/download/v2.17.2/agy-swap_v2.17.2_darwin_arm64"
-      sha256 "8fb7c63c46588197468f1dc5dc216ec4c4022917f53bdb110983a72a3c86ce1f"
+      sha256 "4ec51d0cef6a88905fcc9ff647d57db0a32e0e59b510646d6c22f071cb839c4d"
     else
       url "https://github.com/aklkbqx/agy-swap/releases/download/v2.17.2/agy-swap_v2.17.2_darwin_amd64"
-      sha256 "7092763c6c56c7da2a76530b7783a00e1a10b58b2176268ac1ac7fbb9b9bda43"
+      sha256 "ed10b0829ab3088de04894716674f754134a5171f7da5651587b1b9cf8bddd18"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/aklkbqx/agy-swap/releases/download/v2.17.2/agy-swap_v2.17.2_linux_arm64"
-      sha256 "f52f867d42418c4b9f0ccf5b1dff8a0230293428412a503918aa3c0c75e98c1f"
+      sha256 "f8e6e22b8f3f4b0062ff3e4f4e3a1ac167deab60b2a691d2d0d3cc8f346aea4e"
     else
       url "https://github.com/aklkbqx/agy-swap/releases/download/v2.17.2/agy-swap_v2.17.2_linux_amd64"
-      sha256 "3a9f5b7c6ee475339cddf43cd93bceee33f6061c8113d6aebb8c0de21475bbbe"
+      sha256 "0aaa238a464babf30da9cef3a9590b4d4030a7a7d99e31a76754950432ff571e"
     end
   end
 
