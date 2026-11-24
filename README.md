@@ -12,3 +12,5 @@ as a normal reviewable change. This tap intentionally does not depend on
 GitHub Actions or scheduled synchronization.
 
 Source, documentation, and releases: https://github.com/aklkbqx/agy-swap
+
+Website and guides: [agy-swap.aklkbqx.com](https://agy-swap.aklkbqx.com/) ([Install](https://agy-swap.aklkbqx.com/install.html) · [Guides](https://agy-swap.aklkbqx.com/guides/))
